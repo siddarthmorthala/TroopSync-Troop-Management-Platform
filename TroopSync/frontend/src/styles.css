@@ -1,0 +1,17 @@
+body { margin: 0; font-family: Inter, Arial, sans-serif; background: #0f172a; color: #e5e7eb; }
+* { box-sizing: border-box; }
+.container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.brand { font-size: 28px; font-weight: 700; }
+.subtle { color: #94a3b8; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px; }
+.card { background: #111827; border: 1px solid #1f2937; border-radius: 16px; padding: 16px; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.card h3 { margin-top: 0; }
+.list { display: grid; grid-template-columns: 2fr 2fr 1.3fr; gap: 16px; }
+.badge { display: inline-block; padding: 4px 10px; border-radius: 999px; background: #1d4ed8; color: white; font-size: 12px; }
+.badge.green { background: #059669; }
+.badge.gold { background: #ca8a04; }
+.row { display: flex; justify-content: space-between; margin-bottom: 8px; }
+.small { font-size: 13px; color: #cbd5e1; }
+ul { padding-left: 18px; }
+@media (max-width: 900px) { .grid, .list { grid-template-columns: 1fr; } }

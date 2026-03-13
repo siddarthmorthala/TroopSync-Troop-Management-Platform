@@ -1,0 +1,5 @@
+TroopSync | React, FastAPI, PostgreSQL, Docker, AWS
+• Built a full-stack troop management platform commissioned by Troop 261 leadership in Plano, TX to replace spreadsheets, manual bookkeeping, and fragmented planning workflows.
+• Developed FastAPI services and a React dashboard for advancement tracking, roster management, event planning, fundraisers, scout accounts, reminders, and parent communication.
+• Implemented BSA-style rules validation, service-hour leaderboards, campout logistics tools, meal planning, carpool coordination, and import-ready Scoutbook workflows.
+• Containerized the app with Docker, added pytest-backed API validation, and designed internal reporting views for advancement, finance, and troop engagement metrics.
